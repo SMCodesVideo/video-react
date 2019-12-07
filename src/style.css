@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i|Solway:400,500,700,800&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #799ae1;
+}
+
+
+#dashboard {
+	width: 90%;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background-color: #708fd4;
+	margin: auto;
+	border-radius: 1px;
+	position: relative;
+	top: 110px;
+}
+
+#title {
+	font-family: 'Solway', serif;
+	font-size: 45px;
+	font-weight: 700;
+	text-align: center;
+	color: #FFF;
+}
+
+#formulario {
+	margin-top: 30px;
+}
+
+.inputText {
+	background-color: transparent;
+	border: 0;
+	width: 30%;
+	height: 40px;
+	font-size: 25px;
+	font-weight: 800;
+	font-family: 'Roboto', serif;
+	position: relative;
+	left: 35%;
+	color: #ffDcc0;
+	margin-top: 30px;
+	box-shadow: 0px 3px 0px #6c148b;
+}
+#formulario > input:focus {
+	outline: 0;
+}
+.inputButton {
+	position: relative;
+	width: 30%;
+	margin-top: 70px;
+	left: 35.25%;
+	background-color: #ffff1d;
+	border: 0;
+	border-radius: 2px;
+	font-size: 30px;
+	color: #333;
+	font-weight: 800;
+	font-family: 'Solway', serif;
+	cursor: pointer;
+	box-shadow: 0px 6px 0px #f2f409;
+	height: 80px;
+}
+.inputButton:active {
+	box-shadow: none;
+	top: 6px;
+}
+
+
+
+/*Color_id: #fffce6*/
