@@ -71,6 +71,17 @@ body {
 	top: 6px;
 }
 
-
-
+.sumir {
+	display: none !important;
+}
+.off {
+	display: none !important;
+}
+.on {
+	display: block !important;
+}
+.on > h1 {
+	font-size: 50px;
+	color: #222;
+}
 /*Color_id: #fffce6*/
